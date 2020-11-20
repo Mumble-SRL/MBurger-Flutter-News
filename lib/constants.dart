@@ -1,6 +1,8 @@
+import 'package:flutter/material.dart';
+
 class Constants {
-  // Insert here your mburger token
-  static String get mburgerToken => 'INSERT_HERE_YOUR_TOKEN';
-  // Insert here your news block id
+  // Insert your mburger token below
+  static String get mburgerToken => 'YOUR_MBURGER_TOKEN';
+  // Insert your news block id below
   static int get newsBlockId => 0;
 }
