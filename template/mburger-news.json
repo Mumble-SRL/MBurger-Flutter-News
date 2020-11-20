@@ -1,0 +1,68 @@
+{
+    "name": "MBurger news",
+    "has_analytics": false,
+    "has_beacons": false,
+    "has_users": false,
+    "has_multilanguage": false,
+    "has_live_messages": false,
+    "has_push": false,
+    "has_subscriptions": false,
+    "has_payments": false,
+    "has_shopify": false,
+    "has_social_mobileauth": false,
+    "has_apps": false,
+    "tz": "UTC",
+    "locales": {
+        "en": "English"
+    },
+    "blocks": [
+        {
+            "order": 1,
+            "title": "News",
+            "subtitle": null,
+            "url_title": "news",
+            "is_single": false,
+            "has_push": false,
+            "has_beacons": false,
+            "icon": "fal fa-newspaper",
+            "code_id": 1,
+            "validate_all_locales": false,
+            "table_visual": true,
+            "elements": [
+                {
+                    "name": "image",
+                    "type": "image",
+                    "order": 1,
+                    "options": null,
+                    "label": "Image",
+                    "placeholder": "",
+                    "rules": "",
+                    "code_id": 4,
+                    "show_table": false
+                },
+                {
+                    "name": "title",
+                    "type": "text",
+                    "order": 2,
+                    "options": null,
+                    "label": "Title",
+                    "placeholder": "",
+                    "rules": "",
+                    "code_id": 1,
+                    "show_table": true
+                },
+                {
+                    "name": "content",
+                    "type": "markdown",
+                    "order": 3,
+                    "options": null,
+                    "label": "Content",
+                    "placeholder": "",
+                    "rules": "",
+                    "code_id": 18,
+                    "show_table": false
+                }
+            ]
+        }
+    ]
+}
