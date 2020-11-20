@@ -9,8 +9,8 @@ Follow [this](insert_link) tutorial to crete an application like this:
 <img src="https://raw.githubusercontent.com/Mumble-SRL/MBurger-Flutter-News/master/images/news_detail.png" alt="News Detail" title="News Detail" width=250>
 </p>
 
-You can create a project in MBurger like this using [this template](template/mburger-news.json):
+You can create a project in MBurger like this using [this template](template/):
 
-- Download the template and create a new project from it in [mburger.cloud](mburger.cloud)
+- Download the template and create a new project from it in [mburger.cloud](https://mburger.cloud)
 - Download this project and change to constants in the `constants.dart` file
 - Run the app
