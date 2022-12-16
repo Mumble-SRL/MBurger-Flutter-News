@@ -6,8 +6,8 @@ class NewsDetailScaffold extends StatelessWidget {
   final News news;
 
   const NewsDetailScaffold({
-    Key key,
-    @required this.news,
+    Key? key,
+    required this.news,
   }) : super(key: key);
 
   @override
@@ -18,13 +18,15 @@ class NewsDetailScaffold extends StatelessWidget {
       ),
       body: ListView(
         children: [
-          AspectRatio(
-            aspectRatio: 3 / 2,
-            child: Image.network(
-              news.image,
-              fit: BoxFit.cover,
-            ),
-          ),
+          news.image != null
+              ? AspectRatio(
+                  aspectRatio: 3 / 2,
+                  child: Image.network(
+                    news.image!,
+                    fit: BoxFit.cover,
+                  ),
+                )
+              : Container(),
           Padding(
             padding: const EdgeInsets.all(20.0),
             child: MarkdownBody(
